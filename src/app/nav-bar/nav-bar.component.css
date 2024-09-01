@@ -1,0 +1,12 @@
+.navbar{
+    border-radius: 0.5rem;
+    background-color: #474b52;
+}
+
+.navbar-brand img{
+    width: 50px;
+}
+
+.nav-link:hover{
+    color: white;
+}

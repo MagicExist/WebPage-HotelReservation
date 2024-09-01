@@ -1,0 +1,34 @@
+.mainContainer{
+    padding: 1rem;
+    width: 100%;
+    height: 10rem;
+    overflow: hidden;
+    background-color: #474b52;
+    border-radius: 0.5rem;
+
+}
+.mainContainer__header{
+    width: 50%;
+}
+.mainContainer__header img {
+    width: 5rem;
+}
+.mainContainer__divider{
+    width: 0.2%;
+    height: 100%;
+    background-color: white;
+}
+.mainContainer__body{
+    width: 50%;
+}
+
+.mainContianer__body--item{
+    width: 3rem;
+    height: 3rem;
+}
+
+.mainContianer__body--item img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}

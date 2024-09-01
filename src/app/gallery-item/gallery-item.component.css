@@ -1,0 +1,27 @@
+.mainContainer{
+    display: flex;
+    width: 100%;
+    height: 25rem;
+    background-color: #474b52;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.mainContainer__header{
+    width: 50%;
+    height: 100%;
+}
+
+.mainContainer__header img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.mainContainer__body{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: white;
+    width: 60%;
+}
