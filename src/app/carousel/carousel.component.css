@@ -1,25 +1,8 @@
 .carousel__container{
-    display: flex;
-    justify-content: start;
     width: 80rem;
     background-color: #474b52;
     border-radius: 1rem;
     overflow: hidden;
-}
-.carousel__header{
-    display: flex;
-    justify-content: center;
-    position: relative;
-    width: 50rem;
-    height: 28rem;
-    overflow: hidden;
-    margin-right: 1rem;
-}
-
-.carousel__header img{
-    width: 100%;
-    object-fit: cover;
-    z-index: 100;
 }
 
 .carousel__header:hover{
@@ -45,10 +28,6 @@
 }
 
 .carousel__body{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    width: 40%;
-    padding: 0.5rem;
+    box-sizing: border-box;
     color: white;
 }

@@ -1,16 +1,9 @@
 :root{
-    --backGround-Color:#36393e;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body{
-    background-color: var(--backGround-Color) !important;
+    background-color: #36393e;
     padding: 2px;
     margin: 0;
-}
-
-app-root{
-    box-sizing: border-box;
-    width: 100vh;
-    height: auto;
 }

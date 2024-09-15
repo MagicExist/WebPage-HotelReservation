@@ -4,15 +4,13 @@
                          "carousel carousel carousel"
                          "hotelGallery hotelGallery hotelGallery"
                          "footer footer footer";
-    width: 100%;
-    height: auto;
 }
 
 .nav{
     grid-area: nav;
 }
-.nav .nav__navBar{
-    width: 100%;
+.nav app-nav-bar{
+    z-index: 100;
 }
 .carousel{
     box-sizing: border-box;
@@ -22,6 +20,7 @@
     height: auto;
     grid-area: carousel;
     padding:  0.5rem;
+    z-index: 99;
 }
 .hotelGallery{
     grid-area: hotelGallery;
