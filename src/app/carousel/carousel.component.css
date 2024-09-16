@@ -31,3 +31,43 @@
     box-sizing: border-box;
     color: white;
 }
+
+.carousel__body p{
+    font-size: 1.5rem;
+}
+
+.carousel__body--Separator .btn-reservation{
+    font-size: 1.5rem;
+    width: 15rem;
+}
+
+@media screen and (max-width:1030px) {
+    .carousel__body p{
+        font-size: 2rem;
+    }
+    .carousel__body--Separator .btn-reservation{
+        font-size: 2rem;
+        width: 15rem;
+    }
+ }
+
+
+ @media screen and (max-width:768px) {
+    .carousel__body p{
+        font-size: 2.5rem;
+    }
+    .carousel__body--Separator .btn-reservation{
+        font-size: 2.5rem;
+        width: 25rem;
+    }
+ }
+
+ @media screen and (max-width:480px) {
+    .carousel__body p{
+        font-size: 4.5rem;
+    }
+    .carousel__body--Separator .btn-reservation{
+        font-size: 5rem;
+        width: 25rem;
+    }
+ }
