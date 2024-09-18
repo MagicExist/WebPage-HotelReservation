@@ -30,13 +30,10 @@
     .mainContainer__body p{
         font-size: 2rem;
     }
-    .carousel__body--Separator .btn-reservation{
+    .carousel__body_item--Separator .btn{
         font-size: 2rem;
-        width: 15rem;
     }
  }
-
-
  @media screen and (max-width:768px) {
     .mainContainer__body p{
         font-size: 2rem;
@@ -49,10 +46,9 @@
 
  @media screen and (max-width:480px) {
     .mainContainer__body p{
-        font-size: 2rem;
+        font-size: 4rem;
     }
-    .carousel__body--Separator .btn-reservation{
-        font-size: 5rem;
-        width: 25rem;
+    .carousel__body_item--Separator .btn{
+        font-size: 4rem;
     }
  }
